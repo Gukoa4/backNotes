@@ -113,3 +113,4 @@ const unknownEndpoint = (request, response) => {
 }
 
 app.use(unknownEndpoint)
+app.use(express.static('dist'))
